@@ -1,0 +1,55 @@
+nav{
+    padding-left: 15px;
+    background-color: rgba(255,255,255,.05);
+    position: fixed; 
+    z-index:1;
+}
+
+
+
+.navclassTransparent{
+    background-color: rgba(255,255,255,.2);
+    color: #fff;
+}
+
+.navclassOpaque{
+    background-color: rgba(253, 253, 253, 0.9);
+    color: rgb(63, 63, 63);
+}
+
+.brand-logo-opaque{
+    color: rgb(63, 63, 63) !important;
+    font-family: 'Righteous', cursive !important;
+}
+
+.brand-logo-transparente{
+    color: rgb(255, 255, 255) !important;
+    font-family: 'Righteous', cursive !important;
+}
+
+.aMenuOpaque{
+    color: rgb(63, 63, 63) !important;
+}
+
+.aMenuTransparente{
+    color: rgb(255, 255, 255);
+}
+
+nav .brand-logo {
+    font-family: 'Righteous', cursive;
+    font-weight: bold;
+}
+
+
+nav .brand-logo span{
+    /* color: rgb(241, 4, 4); */
+    color: #ffae00;
+    font-family: 'Righteous', cursive;
+    font-weight: bold;
+    /* font-size: 35px; */
+}
+
+nav ul a{
+    color: #fff;
+}
+
