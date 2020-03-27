@@ -6,12 +6,16 @@
       rgb(255, 255, 255, .2),
       rgba(0, 0, 0, 1)
     ),
-    /* url('../../assets/imagenes/cm.jpg');  */
     url('../../../assets//imagenes/cm.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+
+    display: flex;
+    align-self: flex-end;
+
+    flex-direction: column;
 
 }
 

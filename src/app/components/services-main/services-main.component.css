@@ -1,0 +1,104 @@
+.servicesContainer{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 500px;
+
+    position: relative;
+
+    /* display: flex; */
+    /* flex-wrap: nowrap; */
+    /* flex-direction: row; */
+
+    padding: 3%;
+}
+
+.serviceTitle{
+    width: 100%;
+    height: 80px;
+
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.title{
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.lineTitle{
+    display: block;
+    background-color: #ffae00;
+    height: 60px;
+    width: 3px;
+}
+
+.servicesContent{
+    width: 100%;
+    height: 80%;
+
+    display: grid;
+
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
+
+    justify-items: center;
+    align-items: center;
+
+}
+
+.contentDiv{
+    width: 300px;
+    height: 130px;
+
+    border: .5px solid rgb(190, 190, 190);
+    min-height: 5.714rem;
+    border-radius: 3rem;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.serviceicon{
+    /* background: red; */
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.serviceicon img{
+    width: 80px;
+    height: 80px;
+}
+
+.serviceText{
+    width: 60%;
+    height: 100%;
+
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    flex-direction: column;
+
+    font-size: 30px;
+    color: #3f3f3f;
+}
+
+.serviceText p{
+    margin: 0px;
+    cursor:pointer;
+    text-align: center;
+}
+
+.serviceText p:hover{
+    color:#ffae00;
+    transition: all 0.3s ease 0s;
+}
+
+.serviceText span{
+    font-size: 20px;
+    color:#ffae00 ;
+    cursor:pointer;
+}
